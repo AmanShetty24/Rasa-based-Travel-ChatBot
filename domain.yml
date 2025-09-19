@@ -1,0 +1,400 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - explore_mangalore
+  - mangalore_food
+  - mangalore_weather
+  - travel_to_mangalore
+  - mangalore_history
+  - mangalore_culture
+  - mangalore_accommodation
+  - jeppu_info
+  - bendoor_info
+  - bunder_info
+  - lalbagh_info
+  - valencia_info
+  - kadri_info
+  - mangaladevi_info
+  - falnir_info
+  - bejai_info
+  - mallikatta_info
+  - hampankatta_info
+  - pandeshwar_info
+  - kodialbail_info
+  - balmatta_info
+  - attavar_info
+  - kankanady_info
+  - tannirbhavi_beach_info
+  - pilikula_nisargadhama_info
+  - kudroli_temple_info
+  - panambur_beach_info
+  - sultan_battery_info
+  - st_aloysius_chapel_info
+  - mangala_devi_temple_info
+  - light_house_hill_info
+  - kadri_manjunatha_temple_info
+  - sasihithlu_beach_info
+  - surathkal_beach_info
+  - bengre_beach_info
+  - rosario_cathedral_info
+  - summer_sands_beach_info
+  - thousand_pillars_jain_temple_info
+  - kateel_temple_info
+  - gokarnath_temple_info
+  - ullal_beach_info
+  - kadike_falls_info
+  - mahalingeshwara_temple_info
+  - new_mangalore_port_info
+  - marine_aquarium_info
+  - thanir_mal_info
+  - mangala_stadium_info
+  - japanese_garden_info
+  - bejai_museum_info
+  - tagore_park_info
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to Mangalore Guide! I'm here to help you explore our beautiful coastal city. How can I assist you today?"
+  - text: "Namaste! I'm your Mangalore travel companion. What would you like to know about our city?"
+  - text: "Hello! Ready to discover the wonders of Mangalore? Let me be your guide!"
+  - text: "Hi there! Welcome to Mangalore's virtual guide. How may I help make your experience memorable?"
+
+  utter_cheer_up:
+  - text: "Here's something to brighten your day - a beautiful sunset view from Panambur Beach!"
+  - text: "Let me share some positive vibes with this lovely scene from Tannirbhavi Beach!"
+  - text: "How about a peek at the serene Kadri Temple to lift your spirits?"
+  - text: "Here's a gorgeous view from Light House Hill to make you smile!"
+
+  utter_did_that_help:
+  - text: "Was that information helpful? I'd be happy to provide more details!"
+  - text: "Did you find what you were looking for? Let me know if you need anything else!"
+  - text: "How was that? Would you like to know more about any specific aspect?"
+  - text: "Did that answer your question? I can provide additional information if needed!"
+
+  utter_happy:
+  - text: "Wonderful! Mangalore has so much more to offer. Would you like to explore more?"
+  - text: "Excellent! There's plenty more to discover about our beautiful city!"
+  - text: "Great! Let's continue exploring the treasures of Mangalore!"
+  - text: "Fantastic! Ready to uncover more of Mangalore's hidden gems?"
+
+  utter_goodbye:
+  - text: "Thank you for exploring Mangalore with me! Have a great time in our city!"
+  - text: "Goodbye! Hope you enjoy your time in Mangalore!"
+  - text: "See you soon! Don't forget to try our famous Mangalorean cuisine!"
+  - text: "Farewell! Come back to discover more about beautiful Mangalore!"
+
+  utter_iamabot:
+  - text: "I'm Wondebot, your virtual guide to Mangalore. I'm here to help you discover everything about this beautiful coastal city!"
+  - text: "Yes, I'm Wondebot, an AI assistant dedicated to sharing Mangalore's culture, attractions, and experiences with you."
+  - text: "I'm Wondebot, programmed to help you explore and understand Mangalore's rich heritage and modern attractions."
+  - text: "Indeed, I'm Wondebot, your digital companion for all things Mangalore!"
+
+  utter_mangalore_info:
+  - text: "Mangalore, located on the Arabian Sea coast, is Karnataka's main port city. Known for its pristine beaches, historic temples, educational institutions, and bustling port, the city seamlessly blends tradition with modernity."
+  - text: "Situated between the Western Ghats and the Arabian Sea, Mangalore is a multicultural hub famous for its distinctive cuisine, architectural heritage, and beautiful coastline spanning over 25 kilometers."
+  - text: "As a major commercial center of Karnataka, Mangalore offers a perfect blend of beaches, historical sites, religious centers, and modern amenities, making it an ideal destination for all types of travelers."
+  - text: "Mangalore, named after the goddess Mangaladevi, is a city where diverse cultures meet. It's known for its education facilities, IT parks, processing industries, and rich cultural heritage."
+
+  utter_mangalore_food:
+  - text: "Mangalorean cuisine is famous for dishes like Kane fish fry, Neer dosa, Mangalore buns, and Kori rotti. The city's coastal location ensures fresh seafood, while local spices add unique flavors to every dish."
+  - text: "Experience the taste of Mangalore through its signature dishes: Chicken Ghee Roast, Fish Curry, Anjal Fry, and sweet delights like Gadbad ice cream. Don't miss the famous Mangalore buns for breakfast!"
+  - text: "The city's food scene offers a mix of coastal, Tuluva, and Konkani cuisines. Try local specialties like Pathrode, Golibaje, and various seafood preparations at authentic restaurants."
+  - text: "From street food to fine dining, Mangalore's culinary landscape features unique dishes like Mangalorean biryani, Sukka chicken, and various seafood delicacies prepared with local spices."
+
+  utter_mangalore_weather:
+  - text: "Mangalore experiences a tropical monsoon climate with temperatures ranging from 24°C to 35°C. October to February offers pleasant weather, perfect for sightseeing and outdoor activities."
+  - text: "The city's weather is characterized by hot summers (March-May), heavy monsoons (June-September), and mild winters (December-February). The best time to visit is during winter months."
+  - text: "Mangalore's coastal location ensures moderate temperatures throughout the year. Monsoon season brings lush greenery, while winters are ideal for beach activities and cultural exploration."
+  - text: "The climate is typically humid due to coastal proximity. Summer temperatures peak at 35°C, while winters are pleasant at 24°C. Carry light cotton clothes and rain protection during monsoons."
+
+  utter_mangalore_travel_info:
+  - text: "Reach Mangalore via Mangalore International Airport, well-connected to major cities. The city has two railway stations and is accessible by NH-66 connecting Mumbai and Kerala."
+  - text: "Transportation options include flights to Mangalore International Airport, trains to Mangalore Central/Junction, and buses from major cities. Local transport includes city buses, autos, and taxis."
+  - text: "The city is well-connected by air, rail, and road networks. Within Mangalore, use city buses, auto-rickshaws, or rent vehicles for convenient travel to various attractions."
+  - text: "Access Mangalore through regular flights, trains, or buses. The city's public transport system includes city buses and auto-rickshaws, with taxi services available for comfortable travel."
+
+  utter_mangalore_history:
+  - text: "Mangalore's history dates back to the 6th century AD, ruled by various dynasties including Alupas, Vijayanagara Empire, and Wodeyars. The port city was a major trade center during ancient times."
+  - text: "The city derived its name from the temple of Mangaladevi, built in 9th century. It served as a crucial port for Arabian traders and was later influenced by Portuguese and British colonization."
+  - text: "Historical records mention Mangalore as 'Managara-pura' in ancient texts. The city was a significant trading port, attracting Arab, Portuguese, and British traders over centuries."
+  - text: "Mangalore's rich history includes rule by various dynasties, colonial influences, and development as a major port city. Historical sites like Sultan Battery and ancient temples reflect this heritage."
+
+  utter_mangalore_culture:
+  - text: "Mangalore's culture is a blend of Tulu, Konkani, Beary, and Kannada traditions. The city celebrates festivals like Mangalore Dasara, Deepavali, and Christmas with great enthusiasm."
+  - text: "Experience rich cultural traditions through art forms like Yakshagana, Pilivesha, and Bharatanatyam. The city's diverse population contributes to its vibrant cultural landscape."
+  - text: "Local culture reflects in traditional arts, festivals, cuisine, and architecture. Various communities coexist harmoniously, celebrating their unique customs and traditions."
+  - text: "The city's cultural heritage includes traditional dance forms, music, festivals, and art. Visit during major festivals to experience local customs and celebrations."
+
+  utter_mangalore_accommodation:
+  - text: "Find accommodation options ranging from luxury hotels near city center to beachside resorts. Popular areas include Balmatta, Hampankatta, and coastal regions."
+  - text: "Choose from various staying options: budget hotels, mid-range accommodations, luxury resorts, and homestays. Most hotels offer easy access to attractions and beaches."
+  - text: "Accommodations include 5-star hotels, boutique stays, beach resorts, and budget-friendly options. Areas near MG Road and Bejai offer convenient city access."
+  - text: "Stay options suit all budgets, from luxury beach resorts to affordable city hotels. Most accommodations provide modern amenities and good connectivity."
+
+  utter_hampankatta_info:
+  - text: "Hampankatta, Mangalore's bustling commercial hub, is located in the heart of the city. This area houses major shopping centers, banks, restaurants, and the iconic Central Market."
+  - text: "As the city's main commercial district, Hampankatta offers shopping complexes, traditional markets, food joints, and excellent connectivity to other parts of the city."
+  - text: "Visit Hampankatta for its vibrant shopping scene, traditional markets, and local food outlets. The area is well-connected by public transport and walking distance from major landmarks."
+  - text: "Experience the pulse of Mangalore at Hampankatta, featuring modern shopping centers alongside traditional markets. The area is famous for textile shops and local delicacies."
+
+  utter_bunder_info:
+  - text: "Bunder, the historic port area of Mangalore, is located at the confluence of Gurupura and Netravati rivers. This ancient trading port features old warehouses and traditional markets."
+  - text: "Known as Old Port, Bunder area showcases Mangalore's maritime heritage with historic buildings, spice warehouses, and traditional fishing boats."
+  - text: "Explore Bunder's narrow lanes filled with spice markets, old buildings, and get glimpses of traditional fishing activities. The area reflects the city's trading history."
+  - text: "Visit Bunder to experience the old-world charm of Mangalore's port area, featuring historic architecture, busy markets, and views of fishing boats."
+
+  utter_kankanady_info:
+  - text: "Kankanady, located 5 km from city center, is a major residential and commercial area. Home to educational institutions, hospitals, and the famous Kudroli Temple."
+  - text: "This developing locality features modern amenities, shopping centers, and educational institutions. Well-connected by public transport to all parts of the city."
+  - text: "Visit Kankanady for its shopping complexes, restaurants, and proximity to major attractions. The area offers good residential options and modern facilities."
+  - text: "Kankanady combines residential comfort with commercial convenience, featuring schools, hospitals, and shopping centers. Easy access to both city center and outskirts."
+
+  utter_falnir_info:
+  - text: "Falnir, situated 2 km from city center, is an upscale residential area known for its educational institutions and healthcare facilities. Home to many heritage buildings."
+  - text: "This prime locality features colonial-era buildings, modern apartments, and excellent infrastructure. Known for its peaceful environment and good connectivity."
+  - text: "Explore Falnir's tree-lined streets, heritage structures, and modern amenities. The area offers quality living spaces and educational facilities."
+  - text: "Visit Falnir to see beautiful colonial architecture, modern developments, and educational institutions. The area maintains a perfect blend of old and new."
+
+  utter_kadri_info:
+  - text: "Kadri, located 4 km from city center, is famous for the ancient Kadri Manjunatha Temple and Kadri Park. The area offers serene residential spaces amidst nature."
+  - text: "Home to the historic Kadri temple complex, this area features beautiful parks, educational institutions, and modern amenities."
+  - text: "Explore Kadri's spiritual heritage, natural beauty, and modern facilities. The area is known for its pleasant climate and peaceful environment."
+  - text: "Visit Kadri for its perfect blend of spirituality and nature, featuring the ancient temple, park, and modern residential areas."
+
+  utter_mallikatta_info:
+  - text: "Mallikatta, situated 3 km from city center, is a developing residential area with good infrastructure. Known for educational institutions and proximity to beaches."
+  - text: "This locality offers modern residential spaces, schools, and shopping facilities. Well-connected to major city attractions and business centers."
+  - text: "Experience Mallikatta's growing infrastructure, peaceful environment, and convenient location. The area provides easy access to beaches and city center."
+  - text: "Visit Mallikatta for its residential charm, educational facilities, and strategic location near major attractions."
+
+  utter_bejai_info:
+  - text: "Bejai, located 3 km from city center, is a prime residential area featuring the historic Bejai Church, quality schools, and modern amenities."
+  - text: "This developed locality offers excellent infrastructure, educational institutions, and healthcare facilities. Known for its peaceful environment."
+  - text: "Explore Bejai's blend of heritage and modernity, featuring historic sites, parks, and commercial establishments."
+  - text: "Visit Bejai to experience its cultural heritage, modern facilities, and excellent connectivity to city center."
+
+  utter_kodialbail_info:
+  - text: "Kodialbail, situated 2 km from city center, is a commercial and residential hub featuring educational institutions and shopping centers."
+  - text: "This bustling area offers modern amenities, educational facilities, and good connectivity. Known for its commercial establishments and residential spaces."
+  - text: "Experience Kodialbail's urban lifestyle with its shopping complexes, schools, and residential areas."
+  - text: "Visit Kodialbail for its perfect blend of commercial and residential facilities, featuring modern amenities and good infrastructure."
+
+  utter_bendoor_info:
+  - text: "Bendoor, located 1 km from city center, is a prime commercial area featuring shopping centers, restaurants, and educational institutions."
+  - text: "This central locality offers excellent shopping options, modern amenities, and good connectivity to major city areas."
+  - text: "Explore Bendoor's commercial hub with its diverse shopping options, eateries, and educational facilities."
+  - text: "Visit Bendoor for its shopping experience, modern facilities, and central location in the city."
+
+  utter_lalbagh_info:
+  - text: "Lalbagh, situated 2 km from city center, is a historic area known for its beautiful gardens, colonial buildings, and peaceful environment."
+  - text: "This charming locality features heritage structures, parks, and modern amenities. Known for its cultural significance and green spaces."
+  - text: "Experience Lalbagh's historic charm with its gardens, architecture, and peaceful surroundings."
+  - text: "Visit Lalbagh to explore its colonial heritage, beautiful gardens, and serene atmosphere."
+
+  utter_valencia_info:
+  - text: "Valencia, located 4 km from city center, is a residential area known for its peaceful environment and proximity to educational institutions."
+  - text: "This developing locality offers quality residential spaces, modern amenities, and good connectivity to city center."
+  - text: "Explore Valencia's residential charm with its tree-lined streets, modern facilities, and peaceful atmosphere."
+  - text: "Visit Valencia for its quality living spaces, educational facilities, and growing infrastructure."
+
+  utter_attavar_info:
+  - text: "Attavar, situated 2 km from city center, is a busy commercial and residential area featuring markets, hospitals, and educational institutions."
+  - text: "This central locality offers diverse shopping options, healthcare facilities, and good connectivity to major city areas."
+  - text: "Experience Attavar's urban lifestyle with its markets, residential spaces, and modern amenities."
+  - text: "Visit Attavar for its shopping facilities, healthcare services, and central location in the city."
+
+  utter_mangaladevi_info:
+  - text: "Mangaladevi Temple, located in the heart of Mangalore at Bolar area, is a 9th-century shrine that gave the city its name. The temple's ancient architecture and spiritual significance make it a must-visit destination for both devotees and history enthusiasts."
+  - text: "The temple complex spans several acres and features multiple shrines, traditional lamp towers, and sacred pools. The main shrine is dedicated to Goddess Mangaladevi, with intricate carvings depicting various mythological scenes."
+  - text: "Experience the spiritual ambiance during morning and evening aartis (6:00 AM and 7:00 PM). The temple hosts major festivals including annual car festival in April and special celebrations during Navaratri."
+  - text: "Visit this historic temple open from 6:00 AM to 1:00 PM and 4:00 PM to 8:30 PM daily. The complex includes meditation halls, a temple tank, and various facilities for devotees."
+
+  utter_jeppu_info:
+  - text: "Jeppu, located 4 km from Mangalore city center, is a historic residential area featuring the iconic Jeppu Church built in 1890. The locality blends colonial architecture with modern development."
+  - text: "This established neighborhood houses educational institutions including St. Ann's College, modern hospitals, and shopping centers. The area is known for its tree-lined streets and peaceful atmosphere."
+  - text: "Explore Jeppu's colonial heritage through its historic buildings, churches, and traditional markets. The area offers excellent connectivity to city center and nearby beaches."
+  - text: "Visit this well-planned locality featuring a mix of old-world charm and modern amenities. The area includes parks, recreational facilities, and various dining options."
+
+  utter_pandeshwar_info:
+  - text: "Pandeshwar, situated in central Mangalore, is a prime commercial and administrative hub housing the District Court, Municipal Corporation, and various government offices. Located just 1 km from Mangalore Central Railway Station."
+  - text: "This bustling area features major banks, business centers, and educational institutions including University College. The locality is known for its strategic location and excellent connectivity."
+  - text: "Experience the city's administrative heart with its mix of government buildings, commercial complexes, and educational centers. The area is well-served by public transport."
+  - text: "Visit this central business district that offers easy access to major city landmarks. The area includes modern office spaces, banks, and various dining options."
+
+  utter_balmatta_info:
+  - text: "Balmatta, located 2 km from city center, is an upscale residential area housing prestigious institutions like Father Muller Medical College and St. Aloysius College. The area offers panoramic views of the Arabian Sea."
+  - text: "This developed locality features modern shopping malls, specialty hospitals, and educational institutions. Known for its premium residential spaces and urban amenities."
+  - text: "Explore this vibrant neighborhood with its mix of educational, healthcare, and shopping facilities. The area offers excellent infrastructure and connectivity."
+  - text: "Visit this prime locality known for its educational institutions, healthcare facilities, and modern lifestyle options. The area includes parks, cafes, and entertainment venues."
+
+  utter_kudroli_temple_info:
+  - text: "Kudroli Gokarnath Temple, located 3 km from city center, is a magnificent temple built in 1912 by Sri Narayana Guru. The temple's Dravidian architecture features intricate carvings and towering gopurams."
+  - text: "This spiritual center spans over 7 acres and houses multiple shrines dedicated to various deities. The temple is famous for its grand Dasara celebrations and Navaratri festival."
+  - text: "Experience the temple's spiritual grandeur during daily pujas and special ceremonies. Open from 6:00 AM to 1:00 PM and 4:00 PM to 8:30 PM, the temple offers various sevas and prasadam."
+  - text: "Visit this architectural marvel known for its inclusive worship practices and cultural celebrations. The complex includes meditation halls, community halls, and gardens."
+
+  utter_panambur_beach_info:
+  - text: "Panambur Beach, located 10 km from city center, is Mangalore's most popular beach featuring professional lifeguards, water sports facilities, and a 2 km stretch of clean golden sand."
+  - text: "This well-maintained beach offers various activities including jet skiing, boating, and dolphin viewing. Famous for hosting international kite festivals and beach sports events."
+  - text: "Enjoy beach activities with safety measures in place including trained lifeguards and designated swimming areas. Open from sunrise to sunset, with best visits during evening hours."
+  - text: "Visit this family-friendly beach featuring food courts, children's play areas, and proper parking facilities. Regular cultural events and beach festivals are organized throughout the year."
+
+  utter_tannirbhavi_beach_info:
+  - text: "Tannirbhavi Beach, situated 12 km from Mangalore city center, offers a pristine 2 km stretch of golden sand surrounded by palm groves. Accessible via ferry service from Sultan Battery."
+  - text: "The beach features modern amenities including a children's park, beach walking tracks, and viewing towers. Famous for its spectacular sunset views and peaceful environment."
+  - text: "Experience various beach activities including volleyball, horse riding, and peaceful walks along the shore. Best visited during early morning or late afternoon hours."
+  - text: "Visit this clean and well-maintained beach open from 6:00 AM to 6:00 PM. Facilities include changing rooms, parking area, and local food stalls."
+
+  utter_pilikula_nisargadhama_info:
+  - text: "Pilikula Nisargadhama, located 12 km from city center, is a 370-acre eco-education tourism complex. The facility includes a biological park housing over 100 species, science center, and heritage village."
+  - text: "This comprehensive nature park features a golf course, boating lake, artisan village, and 3D planetarium. The botanical garden showcases rare medicinal plants and regional flora."
+  - text: "Explore various attractions including the zoo, aquarium, water park, and cultural center. Open from 9:30 AM to 5:30 PM, offering guided tours and educational programs."
+  - text: "Visit this unique eco-tourism destination combining entertainment with education. The complex includes restaurants, souvenir shops, and regular cultural performances."
+
+  utter_sultan_battery_info:
+  - text: "Sultan Battery, located 4 km from city center in Boloor, is a historic black stone watchtower built in 1784 by Tipu Sultan. The structure served as a military outpost to protect the Mangalore coast."
+  - text: "This well-preserved monument features underground chambers, cannon mounts, and secret tunnels. The watch tower provides panoramic views of the Arabian Sea and Gurupura River confluence."
+  - text: "Explore this historic fortification that combines military architecture with scenic beauty. Open from 8:00 AM to 6:00 PM, the site offers insights into 18th-century coastal defense systems."
+  - text: "Visit this archaeological monument accessible by local transport or taxi. The area includes information boards about historical significance and perfect spots for photography."
+
+  utter_st_aloysius_chapel_info:
+  - text: "St. Aloysius Chapel, located in the heart of Mangalore at Lighthouse Hill Road, is renowned for its stunning Italian frescoes painted by Antonio Moscheni in 1899. The chapel interior features magnificent paintings covering over 829 square meters of ceiling and walls."
+  - text: "This architectural marvel, built in 1885, combines Gothic and Italian architectural styles. The chapel's walls showcase biblical scenes and the life of Saint Aloysius Gonzaga, with paintings that rival the Sistine Chapel in artistry."
+  - text: "Visit the chapel to explore its 600+ square meters of stunning murals and frescoes. Open from 9:00 AM to 5:00 PM, the chapel offers guided tours explaining the historical and religious significance of each artwork."
+  - text: "Experience the spiritual and artistic beauty of this chapel, often called the 'Little Vatican of Mangalore'. The recently restored frescoes use natural pigments and demonstrate exceptional 19th-century Italian craftsmanship."
+
+  utter_kateel_temple_info:
+  - text: "Kateel Sri Durgaparameshwari Temple, located 29 km from Mangalore, sits on an islet in the middle of the River Nandini. This ancient temple is one of the most important Shakti temples in the region."
+  - text: "The temple, accessible via a bridge across the river, conducts special rituals during Navarathri and annual festival in April. The unique location and architectural style make it a must-visit spiritual destination."
+  - text: "Experience the divine atmosphere of this temple known for its unique rituals and ceremonies. Open from 6:00 AM to 2:00 PM and 4:00 PM to 8:30 PM, the temple offers special prasadam services."
+  - text: "Visit this serene temple surrounded by the flowing river, offering a peaceful spiritual experience. The temple complex includes meditation halls and resting areas for devotees."
+
+  utter_thousand_pillars_jain_temple_info:
+  - text: "The Thousand Pillars Jain Temple (Tribhuvana Tilaka Chudamani Basadi), located in Moodabidri 34 km from Mangalore, is a 15th-century architectural marvel featuring 1000 intricately carved pillars."
+  - text: "This monumental temple, built in 1430-1431, showcases exquisite Jain architecture with unique carvings on each pillar. The temple houses valuable Jain manuscripts and artifacts."
+  - text: "Explore this architectural wonder known for its stunning bronze idols, intricate carvings, and historical significance. Open from 6:30 AM to 6:00 PM, the temple offers guided tours."
+  - text: "Visit this remarkable temple to witness its architectural brilliance and learn about Jain heritage. The temple complex includes several smaller shrines and a museum."
+
+  utter_surathkal_beach_info:
+  - text: "Surathkal Beach, located 13 km north of Mangalore, features a historic lighthouse built in 1972. The beach is known for its pristine shoreline, crystal-clear waters, and spectacular sunsets."
+  - text: "This serene beach destination offers activities like swimming, sunbathing, and lighthouse visits. The 32-meter tall lighthouse provides panoramic views of the Arabian Sea and coastline."
+  - text: "Experience the tranquility of this less-crowded beach, perfect for morning walks and evening relaxation. The lighthouse is open for visitors from 4:00 PM to 5:00 PM."
+  - text: "Visit this beautiful coastal spot combining natural beauty with historical significance. The beach area includes basic amenities and several local seafood restaurants."
+
+  utter_ullal_beach_info:
+  - text: "Ullal Beach, situated 12 km from Mangalore city center, is a historic beach known for its connection to Queen Abbakka Devi. The beach features golden sands, palm trees, and traditional fishing activities."
+  - text: "This picturesque beach offers stunning sunset views, water sports activities, and nearby historical sites like Abbakka Fort. The area is famous for its fresh seafood restaurants."
+  - text: "Explore this beautiful coastline combining history with natural beauty. Open all day, the beach is particularly beautiful during sunrise and sunset hours."
+  - text: "Visit this historic beach location offering perfect blend of culture and coastal beauty. The area includes accommodation options and excellent local cuisine."
+
+  utter_bengre_beach_info:
+  - text: "Bengre Beach, located at the confluence of Netravati and Gurupura rivers with Arabian Sea, is 10 km from city center. This unique beach offers views of both river and sea waters meeting."
+  - text: "Known for its pristine environment and fishing community, Bengre Beach provides a glimpse into traditional coastal life. The area is famous for its sunset views and dolphin sightings."
+  - text: "Experience the unique ecosystem where river meets sea, perfect for nature photography and peaceful walks. The beach is accessible by road and ferry service."
+  - text: "Visit this secluded beach to enjoy its natural beauty and watch traditional fishing activities. The area offers fresh seafood and beautiful backwater views."
+
+  utter_kadike_falls_info:
+  - text: "Kadike Falls, located 30 km from Mangalore in Bantwal taluk, is a scenic waterfall surrounded by dense forest. The falls drop from a height of about 50 feet creating a natural pool below."
+  - text: "Best visited during monsoon and post-monsoon seasons, these falls offer excellent trekking opportunities and picnic spots. The area is rich in flora and fauna."
+  - text: "Experience the beauty of these hidden falls accessible through a short trek. The site is ideal for nature photography and bird watching."
+  - text: "Visit during July to January for the best experience. The area includes basic amenities and resting spots for visitors."
+
+  utter_marine_aquarium_info:
+  - text: "The Marine Aquarium, located at Pilikula Nisargadhama complex 12 km from city center, showcases diverse marine life from the Arabian Sea. The facility features both freshwater and marine species."
+  - text: "Housing over 100 species of marine and freshwater fish, the aquarium offers educational tours and interactive sessions. Special exhibits include rare local aquatic species."
+  - text: "Explore various marine ecosystems through well-maintained tanks and informative displays. Open from 9:30 AM to 5:30 PM, the aquarium offers guided tours."
+  - text: "Visit this educational facility to learn about marine biodiversity. The complex includes touch pools and educational programs for students."
+
+  utter_japanese_garden_info:
+  - text: "The Japanese Garden, located in Kadri Park area, spans 3 acres featuring traditional Japanese landscaping elements. The garden showcases oriental architecture, water features, and zen spaces."
+  - text: "This peaceful park includes pagoda-style structures, stone lanterns, zen gardens, and meditation areas. The landscape design follows authentic Japanese gardening principles."
+  - text: "Experience tranquility in this beautifully maintained garden open from 6:00 AM to 6:00 PM. The site is perfect for morning walks and meditation."
+  - text: "Visit this unique garden offering a slice of Japanese culture in Mangalore. The area includes sitting areas, walking paths, and regular maintenance of exotic plants."
+
+  utter_bejai_museum_info:
+  - text: "Bejai Museum (Seemanthi Bai Government Museum), located in Bejai area, houses a rich collection of artifacts showcasing Mangalore's history. The museum features archaeological finds, ancient coins, and traditional artifacts."
+  - text: "Established in 1960, the museum displays items from stone age to modern era, including traditional households items, ancient weapons, and historical documents."
+  - text: "Explore centuries of local history through well-curated exhibits. Open from 10:00 AM to 5:00 PM (closed on Mondays), the museum offers guided tours."
+  - text: "Visit this cultural institution to understand Mangalore's rich heritage. The museum includes a research library and regular cultural programs."
+  utter_mangala_devi_temple_info:
+  - text: "Mangala Devi Temple is an ancient temple dedicated to Goddess Mangala Devi, located in Mangalore city. The temple dates back to the 9th century."
+  - text: "The temple showcases traditional Tulu architecture and is known for its historical significance in the region's cultural heritage."
+  - text: "Visit during the annual Mangala Devi Temple festival in April, featuring special pujas and cultural events."
+  - text: "Open from 6:00 AM to 1:00 PM and 4:00 PM to 8:00 PM daily. Photography is allowed in the temple premises."
+
+  utter_light_house_hill_info:
+  - text: "Light House Hill, located in the heart of Mangalore, offers panoramic views of the Arabian Sea and the city's coastline."
+  - text: "The lighthouse, built in 1901, stands 32 meters tall and is still operational, guiding ships along the coast."
+  - text: "Popular sunset viewing spot, with walking trails and benches for visitors to relax and enjoy the scenery."
+  - text: "Open to visitors from 9:00 AM to 5:00 PM. Entry fees apply for lighthouse visits."
+
+  utter_kadri_manjunatha_temple_info:
+  - text: "Kadri Manjunatha Temple, dating back to 1068 AD, is one of the oldest temples in Mangalore dedicated to Lord Shiva."
+  - text: "Famous for its bronze statue of Lokeshwara, considered the oldest bronze statue in South India."
+  - text: "The temple complex includes nine holy tanks and caves where Buddhist monks once meditated."
+  - text: "Open from 6:00 AM to 1:00 PM and 4:00 PM to 8:30 PM. Special prayers conducted during Kadri Temple festival."
+
+  utter_sasihithlu_beach_info:
+  - text: "Sasihithlu Beach is located at the confluence of two rivers, Nandini and Shambhavi, meeting the Arabian Sea."
+  - text: "Known for its pristine, uncrowded environment and perfect spot for nature photography."
+  - text: "Popular for activities like swimming, surfing, and beach volleyball. Annual surfing festival held here."
+  - text: "Best visited during morning hours. Basic facilities available including parking and small eateries."
+
+  utter_rosario_cathedral_info:
+  - text: "Rosario Cathedral, established in 1568, is one of the oldest churches in the Mangalore region."
+  - text: "Features stunning Gothic architecture with beautiful stained glass windows and intricate wooden carvings."
+  - text: "Houses historic artifacts and paintings depicting biblical scenes and local Christian history."
+  - text: "Open daily from 6:00 AM to 7:00 PM. Special masses held during Christmas and Easter."
+
+  utter_summer_sands_beach_info:
+  - text: "Summer Sands Beach is a popular family-friendly beach located in Ullal, about 10 km from Mangalore city."
+  - text: "Features well-maintained gardens, children's play area, and water sports facilities."
+  - text: "Offers activities like jet skiing, banana boat rides, and beach volleyball."
+  - text: "Open from sunrise to sunset. Has good facilities including restaurants, changing rooms, and parking."
+
+  utter_gokarnath_temple_info:
+  - text: "Gokarnath Temple is an ancient Shiva temple located in the heart of Mangalore city."
+  - text: "Known for its unique architecture combining traditional and modern elements."
+  - text: "Famous for its Shivaratri celebrations and regular cultural programs."
+  - text: "Temple timings: 6:00 AM to 1:00 PM and 4:00 PM to 8:30 PM. Special pujas conducted daily."
+
+  utter_mahalingeshwara_temple_info:
+  - text: "Mahalingeshwara Temple is a historic temple dedicated to Lord Shiva, located in Mangalore."
+  - text: "Notable for its traditional Dravidian architecture and peaceful atmosphere."
+  - text: "Hosts important festivals during Shivaratri and other auspicious occasions."
+  - text: "Open from 6:00 AM to 12:00 PM and 4:00 PM to 8:00 PM. Free entry for all visitors."
+
+  utter_new_mangalore_port_info:
+  - text: "New Mangalore Port is one of India's major ports, handling various types of cargo."
+  - text: "Features modern facilities and infrastructure for maritime operations."
+  - text: "Offers port tours and viewing points to watch ships and port activities."
+  - text: "Visitor timings: 10:00 AM to 5:00 PM. Prior permission required for port visits."
+
+  utter_thanir_mal_info:
+  - text: "Thanir Mal is a scenic hilltop offering panoramic views of Mangalore city and coastline."
+  - text: "Popular spot for trekking and nature photography, especially during sunrise and sunset."
+  - text: "Features walking trails and viewpoints with benches for visitors."
+  - text: "Best visited early morning or late evening. Basic facilities available for visitors."
+
+  utter_mangala_stadium_info:
+  - text: "Mangala Stadium, located in the heart of the city, is a multi-purpose sports complex hosting cricket, football, and athletic events. The stadium has a seating capacity of 25,000."
+  - text: "This premier sports facility features a football ground, athletic track, indoor courts, and modern fitness equipment. The stadium hosts regional and national level competitions."
+  - text: "Experience various sporting events and fitness activities at this well-maintained facility. Open from 6:00 AM to 6:00 PM for public use."
+  - text: "Visit this sports hub offering training facilities and regular tournaments. The complex includes a gymnasium and coaching facilities."
+
+  utter_tagore_park_info:
+  - text: "Tagore Park, situated near Light House Hill, is a well-maintained urban park offering panoramic views of Arabian Sea. The park features beautiful landscaping and walking paths."
+  - text: "Named after Rabindranath Tagore, this park includes children's play areas, seating spaces, and scenic viewpoints. The location offers stunning sunset views."
+  - text: "Enjoy peaceful walks and relaxation in this centrally located park. Open from 6:00 AM to 8:00 PM, it's popular for morning exercises and evening gatherings."
+  - text: "Visit this urban green space for recreation and relaxation. The park includes maintained gardens and regular cultural events."
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
